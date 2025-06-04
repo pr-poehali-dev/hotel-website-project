@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative h-screen bg-gradient-to-r from-blue-900 to-blue-700 flex items-center justify-center text-white">
       <div className="absolute inset-0 bg-black opacity-40"></div>
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center rounded-md"
         style={{
           backgroundImage:
             "url(https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80)",
